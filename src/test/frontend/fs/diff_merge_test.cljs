@@ -138,7 +138,10 @@
 \t\t\t- nice
 \t\t\t- bingo
 \t\t\t- world"
-    [[[-1 {:body "## hello"
+    ;; Empty op, because no insertion op before the first base block required
+    ;; See https://github.com/logseq/diff-merge#usage
+    [[]
+     [[-1 {:body "## hello"
           :level 2
           :uuid nil}]
       [1  {:body "## Halooooo"
@@ -173,7 +176,10 @@
 \t\t\t- nice
 \t\t\t- bingo
 \t\t\t- world"
-[[[-1 {:body "## hello"
+;; Empty op, because no insertion op before the first base block required
+;; See https://github.com/logseq/diff-merge#usage
+[[]
+ [[-1 {:body "## hello"
        :level 2
        :uuid nil}]
   [1  {:body "## Halooooo"
